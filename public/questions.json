@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "question": "Which of the following is a correct example of a compound sentence?",
+        "options": ["She likes coffee, he prefers tea.", "She likes coffee; he prefers tea.", "She likes coffee he prefers tea.", "She likes coffee, but he prefers tea."],
+        "answer": "She likes coffee, but he prefers tea."
+    },
+    {
+        "id": 2,
+        "question": "Identify the misspelled word in the list below.",
+        "options": ["Necessary", "Environment", "Judgement", "Seperate"],
+        "answer": "Seperate"
+    },
+    {
+        "id": 3,
+        "question": "Which sentence uses an apostrophe correctly?",
+        "options": ["Its a beautiful day.", "It's a beautiful day.", "Its' a beautiful day.", "It,s a beautiful day."],
+        "answer": "It's a beautiful day."
+    },
+    {
+        "id": 4,
+        "question": "What is the plural form of 'mouse'?",
+        "options": ["Mouses", "Mice", "Mouse", "Mices"],
+        "answer": "Mice"
+    },
+    {
+        "id": 5,
+        "question": "Choose the correctly punctuated sentence.",
+        "options": ["Where's my phone?", "Where's my phone.", "Wheres my phone?", "Wheres my phone."],
+        "answer": "Where's my phone?"
+    },
+    {
+        "id": 6,
+        "question": "Which of the following is a passive voice sentence?",
+        "options": ["The cat chased the mouse.", "The mouse was chased by the cat.", "The mouse chased a cat.", "A cat is chasing a mouse."],
+        "answer": "The mouse was chased by the cat."
+    },
+    {
+        "id": 7,
+        "question": "What is the correct comparative form of 'bad'?",
+        "options": ["Badder", "More bad", "Worse", "Baddest"],
+        "answer": "Worse"
+    },
+    {
+        "id": 8,
+        "question": "Identify the adverb in the following sentence: 'He ran quickly to the store.'",
+        "options": ["He", "Ran", "Quickly", "Store"],
+        "answer": "Quickly"
+    },
+    {
+        "id": 9,
+        "question": "Which word is a conjunction in the sentence 'She wanted to go outside, but it was raining'?",
+        "options": ["Wanted", "Go", "But", "It"],
+        "answer": "But"
+    },
+    {
+        "id": 10,
+        "question": "What type of word is 'beautiful' in the sentence 'The beautiful painting hung on the wall'?",
+        "options": ["Noun", "Verb", "Adjective", "Adverb"],
+        "answer": "Adjective"
+    }
+]

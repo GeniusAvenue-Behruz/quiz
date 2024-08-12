@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Quizzes</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="navbar.js"></script>
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <nav id="header" class="w-full bg-white shadow">
+        <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+            <div class="pl-4 flex items-center">
+                <a class="text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl" href="#">Educational Quizzes</a>
+            </div>
+            <div class="block lg:hidden pr-4">
+                <button id="nav-toggle" class="flex items-center p-1 text-orange-800 hover:text-gray-900">
+                    <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg>
+                </button>
+            </div>
+            <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white z-20" id="nav-content">
+                <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                    <li class="mr-3">
+                        <a class="inline-block py-2 px-4 text-gray-900 font-bold no-underline" href="#">Home</a>
+                    </li>
+                    <li class="mr-3">
+                        <a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4" href="#">About</a>
+                    </li>
+                    <li class="mr-3">
+                        <a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4" href="#">Quiz Topics</a>
+                    </li>
+                    <li class="mr-3">
+                        <a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <footer class="w-full border-t bg-white mt-8 py-6">
+        <div class="container mx-auto flex flex-wrap items-center justify-between">
+            <div class="flex w-full lg:w-1/2 justify-center lg:justify-start lg:pl-4">
+                <p class="text-gray-900 text-center lg:text-left">
+                    ©2024 Educational Quizzes - All Rights Reserved
+                </p>
+            </div>
+            <div class="flex w-full lg:w-1/2 lg:justify-end justify-center">
+                <a href="#" class="text-gray-900 lg:mr-6">Privacy</a>
+                <a href="#" class="text-gray-900">Terms</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
