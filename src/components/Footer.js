@@ -10,8 +10,8 @@ function Footer() {
           </p>
         </div>
         <div className="flex w-full lg:w-1/2 lg:justify-end justify-center">
-          <a href="#" className="text-gray-900 lg:mr-6">Privacy</a>
-          <a href="#" className="text-gray-900">Terms</a>
+          <a href="/privacy" className="text-gray-900 lg:mr-6">Privacy</a>
+          <a href="/terms" className="text-gray-900">Terms</a>
         </div>
       </div>
     </footer>
