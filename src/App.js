@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.js'
 import NoPage from './pages/NoPage.js'
-
+import Ratings from './components/Ratings.js';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path='/home' element={<Home />} />
+        <Route path='/ratings' element={<Ratings />} />
         <Route path='*' element={<NoPage />} />
       </Routes>
     </BrowserRouter>);

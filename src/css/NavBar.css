@@ -1,0 +1,124 @@
+/* Navbar Styles */
+.navbar {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.navbar__brand {
+    padding-left: 1rem;
+}
+
+.navbar__brand-link {
+    color: #1a202c;
+    /* gray-900 */
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.navbar__menu-toggle {
+    display: block;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.navbar__menu-toggle-button {
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+    color: #333;
+    /* orange-800 */
+    transition: color 0.3s;
+}
+
+.navbar__menu-toggle-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: currentColor;
+}
+
+/* Menu - Default (hidden on small screens) */
+.navbar__menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    z-index: 20;
+    transition: max-height 0.3s ease;
+}
+
+.navbar__menu--open {
+    display: flex;
+}
+
+/* Menu list */
+.navbar__menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar__menu-item {
+    margin: 0.5rem 0;
+}
+
+.navbar__menu-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    color: #1a202c;
+    /* gray-900 */
+    text-decoration: none;
+}
+
+.navbar__menu-link--secondary {
+    color: #718096;
+    /* gray-600 */
+}
+
+/* Large Screens - Horizontal Menu */
+@media (min-width: 1024px) {
+    .navbar__menu-toggle {
+        display: none;
+        /* Hide burger menu on large screens */
+    }
+
+    .navbar__menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: auto;
+        height: auto;
+    }
+
+    .navbar__menu-list {
+        flex-direction: row;
+        width: auto;
+    }
+
+    .navbar__menu-item {
+        margin: 0 1rem;
+    }
+
+    .navbar__menu-link {
+        padding: 0.5rem 1rem;
+    }
+}

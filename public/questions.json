@@ -1,62 +1,179 @@
 [
     {
+        "answer": "She likes coffee, but he prefers tea.",
         "id": 1,
+        "options": [
+            "She likes coffee, he prefers tea.",
+            "She likes coffee; he prefers tea.",
+            "She likes coffee he prefers tea.",
+            "She likes coffee, but he prefers tea."
+        ],
         "question": "Which of the following is a correct example of a compound sentence?",
-        "options": ["She likes coffee, he prefers tea.", "She likes coffee; he prefers tea.", "She likes coffee he prefers tea.", "She likes coffee, but he prefers tea."],
-        "answer": "She likes coffee, but he prefers tea."
+        "score": 2
     },
     {
+        "answer": "Seperate",
         "id": 2,
+        "options": [
+            "Necessary",
+            "Environment",
+            "Judgement",
+            "Seperate"
+        ],
         "question": "Identify the misspelled word in the list below.",
-        "options": ["Necessary", "Environment", "Judgement", "Seperate"],
-        "answer": "Seperate"
+        "score": 3
     },
     {
+        "answer": "It's a beautiful day.",
         "id": 3,
-        "question": "Which sentence uses an apostrophe correctly?",
-        "options": ["Its a beautiful day.", "It's a beautiful day.", "Its' a beautiful day.", "It,s a beautiful day."],
-        "answer": "It's a beautiful day."
+        "options": [
+            "Its a beautiful day.",
+            "It's a beautiful day.",
+            "Its' a beautiful day.",
+            "It,s a beautiful day."
+        ],
+        "question": "Which sentence uses an apostrophe correctly?"
     },
     {
+        "answer": "Mice",
         "id": 4,
+        "options": [
+            "Mouses",
+            "Mice",
+            "Mouse",
+            "Mices"
+        ],
         "question": "What is the plural form of 'mouse'?",
-        "options": ["Mouses", "Mice", "Mouse", "Mices"],
-        "answer": "Mice"
+        "score": 1
     },
     {
+        "answer": "Where's my phone?",
         "id": 5,
+        "options": [
+            "Where's my phone?",
+            "Where's my phone.",
+            "Wheres my phone?",
+            "Wheres my phone."
+        ],
         "question": "Choose the correctly punctuated sentence.",
-        "options": ["Where's my phone?", "Where's my phone.", "Wheres my phone?", "Wheres my phone."],
-        "answer": "Where's my phone?"
+        "score": 2
     },
     {
+        "answer": "The mouse was chased by the cat.",
         "id": 6,
+        "options": [
+            "The cat chased the mouse.",
+            "The mouse was chased by the cat.",
+            "The mouse chased a cat.",
+            "A cat is chasing a mouse."
+        ],
         "question": "Which of the following is a passive voice sentence?",
-        "options": ["The cat chased the mouse.", "The mouse was chased by the cat.", "The mouse chased a cat.", "A cat is chasing a mouse."],
-        "answer": "The mouse was chased by the cat."
+        "score": 3
     },
     {
+        "answer": "Worse",
         "id": 7,
+        "options": [
+            "Badder",
+            "More bad",
+            "Worse",
+            "Baddest"
+        ],
         "question": "What is the correct comparative form of 'bad'?",
-        "options": ["Badder", "More bad", "Worse", "Baddest"],
-        "answer": "Worse"
+        "score": 1
     },
     {
+        "answer": "Quickly",
         "id": 8,
+        "options": [
+            "He",
+            "Ran",
+            "Quickly",
+            "Store"
+        ],
         "question": "Identify the adverb in the following sentence: 'He ran quickly to the store.'",
-        "options": ["He", "Ran", "Quickly", "Store"],
-        "answer": "Quickly"
+        "score": 2
     },
     {
+        "answer": "But",
         "id": 9,
-        "question": "Which word is a conjunction in the sentence 'She wanted to go outside, but it was raining'?",
-        "options": ["Wanted", "Go", "But", "It"],
-        "answer": "But"
+        "options": [
+            "Wanted",
+            "Go",
+            "But",
+            "It"
+        ],
+        "question": "Which word is a conjunction in the sentence 'She wanted to go outside, but it was raining'?"
     },
     {
+        "answer": "Adjective",
         "id": 10,
-        "question": "What type of word is 'beautiful' in the sentence 'The beautiful painting hung on the wall'?",
-        "options": ["Noun", "Verb", "Adjective", "Adverb"],
-        "answer": "Adjective"
+        "options": [
+            "Noun",
+            "Verb",
+            "Adjective",
+            "Adverb"
+        ],
+        "question": "What type of word is 'beautiful' in the sentence 'The beautiful painting hung on the wall'?"
+    },
+    {
+        "answer": "Gone",
+        "id": 11,
+        "options": [
+            "Went",
+            "Gone",
+            "Going",
+            "Go"
+        ],
+        "question": "What is the past participle of 'go'?",
+        "score": 4
+    },
+    {
+        "answer": "Because",
+        "id": 12,
+        "options": [
+            "And",
+            "But",
+            "Because",
+            "Or"
+        ],
+        "question": "Which of the following is a subordinating conjunction?",
+        "score": 2
+    },
+    {
+        "answer": "Seal",
+        "id": 13,
+        "options": [
+            "Sole",
+            "Soul",
+            "Sail",
+            "Seal"
+        ],
+        "question": "Identify the correct homophone in the sentence: 'She saw a ___ on the beach.'",
+        "score": 3
+    },
+    {
+        "answer": "The group of students is excited.",
+        "id": 14,
+        "options": [
+            "The group of students are excited.",
+            "The group of students is excited.",
+            "The group of students were excited.",
+            "The group of students have excited."
+        ],
+        "question": "Choose the sentence with correct subject-verb agreement.",
+        "score": 5
+    },
+    {
+        "answer": "Lay",
+        "id": 15,
+        "options": [
+            "Lays",
+            "Laid",
+            "Lied",
+            "Lay"
+        ],
+        "question": "Which form of 'lie' is correct in the sentence 'Yesterday, he ___ on the couch all day.'?",
+        "score": 5
     }
 ]
